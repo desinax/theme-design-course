@@ -126,7 +126,7 @@ clean:
 .PHONY: clean-all
 clean-all: clean
 	@$(call HELPTEXT,$@)
-	rm -rf node_modules
+	rm -rf node_modules package-lock.json
 
 
 
